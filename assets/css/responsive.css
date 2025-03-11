@@ -1,0 +1,307 @@
+@media (min-width:576px) {}
+
+@media (min-width:768px) {
+
+    #info {
+        display: none !important;
+    }
+
+    .swiper-slide img {
+
+        &:nth-of-type(1) {
+            display: none !important;
+        }
+
+        &:nth-of-type(2) {
+            display: block !important;
+        }
+    }
+
+    .menu-bottom {
+        display: none !important;
+    }
+
+    .aside-main {
+        display: flex !important;
+
+    }
+
+    .about {
+        display: flex;
+
+        >div {
+            &:first-child {
+                display: flex !important;
+                width: 30% !important;
+            }
+
+            &:last-child {
+                width: 70% !important;
+                display: flex;
+
+                >div {
+                    >div {
+                        &:last-child {
+                            display: flex !important;
+                            flex-direction: row !important;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+
+
+    .gallery {
+        width: 100%;
+        display: flex;
+        /*ye bag riz */
+        justify-content: space-between;
+
+        >div {
+            &:first-child {
+                width: 30% !important;
+                display: flex !important;
+            }
+
+
+            &:last-child {
+                flex-direction: column !important;
+                justify-content: center;
+                width: 70% !important;
+                margin-bottom: 0;
+
+                >div {
+                    &:first-child {
+                        display: none !important;
+                    }
+
+                    &:last-child {
+                        width: 100%;
+                        display: flex !important;
+                        /* align-items: center; */
+                        flex-direction: column;
+
+                        >div {
+                            >div {
+                                &:first-child {
+                                    height: 100%;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    align-items: center;
+                                    justify-content: center;
+                                    gap: 30px;
+                                }
+
+                                &:last-child {
+                                    height: 100%;
+                                    display: flex;
+                                    flex-wrap: wrap;
+                                    align-items: center;
+                                    justify-content: center;
+                                    gap: 30px;
+                                }
+
+                                >div {
+
+                                    >img {
+                                        cursor: pointer;
+                                        width: 100%;
+                                        border-radius: 15px;
+                                    }
+
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+    .menus {
+        display: flex;
+
+        >div {
+            &:first-child {
+                display: flex !important;
+                width: 30%;
+            }
+
+            &:last-child {
+                width: 70% !important;
+
+            }
+        }
+
+    }
+
+
+    .opinions {
+        width: 100%;
+        display: flex;
+
+        >div {
+            &:nth-of-type(1) {
+                display: flex !important;
+                width: 30% !important;
+            }
+
+            &:nth-of-type(2) {
+                width: 70% !important;
+
+                >div {
+                    &:last-child {
+                        gap: 30px;
+                    }
+                }
+            }
+        }
+
+
+    }
+
+
+    /* order */
+    .order {
+        display: flex;
+
+        >div {
+            &:first-child {
+                display: flex !important;
+                width: 30% !important;
+            }
+
+            &:last-child {
+                width: 70% !important;
+            }
+        }
+    }
+
+
+    /* contact */
+    .contact {
+        display: flex;
+
+        >div {
+            &:first-child {
+                display: flex !important;
+                width: 30%;
+            }
+
+            &:last-child {
+                width: 70% !important;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                color: gray;
+                >form{
+                  >div{
+                    &:nth-of-type(6){
+                        flex-direction: row !important;
+                    }
+                  }
+                }
+            }
+        }
+
+    }
+
+
+    footer {
+        display: flex;
+
+        >div {
+            &:first-child {
+                display: flex !important;
+                width: 30% !important;
+            }
+
+            &:last-child {
+                width: 70% !important;
+
+            }
+        }
+    }
+
+
+
+
+    /* /////////////// product style //////////////*/
+
+    .product {
+        >div {
+            display: flex !important;
+            align-items: start;
+            justify-content: center;
+            >div{
+                &:nth-of-type(1){
+                margin-top: 110px;                 
+
+                }
+                &:nth-of-type(2){
+                    margin-top: 110px;                
+    
+                    }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:992px) {
+
+    .about {
+        >div {
+            >div {
+                &:nth-of-type(2) {
+                    flex-direction: row-reverse !important;
+                    align-items: start !important;
+
+                    /* b1 */
+                    >div {
+                        width: 45% !important;
+                    }
+
+                    /* b2 img */
+                    >img {
+                        width: 45% !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .menus {
+        >div {
+            &:last-child {
+                >div {
+                    >div {
+                        &:nth-of-type(2) {
+                            >div {
+                                display: flex;
+                                justify-content: space-between;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}
