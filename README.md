@@ -3,15 +3,16 @@ This is my first java script project
 
 ![Image](https://github.com/user-attachments/assets/a8953f3b-dc62-4a10-a53f-d260d2eb4b7b)
 
-![view final](https://user-images.githubusercontent.com/109727844/204102930-fac80657-4d16-4816-b476-a88e984abefe.jpg)
+![Image](https://github.com/user-attachments/assets/d76e8866-7fcb-44c6-8e69-c3ad281b5295)
 
+![Image](https://github.com/user-attachments/assets/26d6cc93-5d80-45cb-8389-85986a28bef3)
 - [Demo Project](address)
 
 - Developed by Parisa Moheb
 
-- Created - 2022-11-26
+- Created - 2025-03-11
 
-- Technologies Used - Html , css , js , React.js
+- Technologies Used - Html , css , js ,Bootstrap
 
 - Role - Frontend
 
