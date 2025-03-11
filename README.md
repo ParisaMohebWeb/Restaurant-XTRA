@@ -6,7 +6,7 @@ This is my first java script project
 ![Image](https://github.com/user-attachments/assets/d76e8866-7fcb-44c6-8e69-c3ad281b5295)
 
 ![Image](https://github.com/user-attachments/assets/26d6cc93-5d80-45cb-8389-85986a28bef3)
-- [Demo Project](address)
+- [Demo Project](https://parisamohebweb.github.io/Restaurant-XTRA/)
 
 - Developed by Parisa Moheb
 
