@@ -8,7 +8,7 @@ This is my first java script project
 ![Image](https://github.com/user-attachments/assets/26d6cc93-5d80-45cb-8389-85986a28bef3)
 - [Demo Project](address)
 
-- Developed by #Parisa Moheb
+- Developed by Parisa Moheb
 
 - Created - 2025-03-11
 
